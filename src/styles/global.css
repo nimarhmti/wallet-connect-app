@@ -1,0 +1,32 @@
+@import "./components/components.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    @apply h-screen bg-black;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-white;
+  }
+  p {
+    @apply text-white;
+  }
+  button {
+    @apply outline-none;
+  }
+  input {
+    @apply outline-none;
+  }
+}
